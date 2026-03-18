@@ -1,0 +1,71 @@
+---
+# Default rank for new players
+default-rank: "Member"
+
+# Format variables:
+# {level} = The player's level (colored)
+# {rank} = The player's rank name (pre-formatted with color and space, or empty for Member)
+# {player} = The player's name
+# {msg} = The chat message (only used in chat-format)
+# {color} = The player's rank color
+
+nametag-format: "{level} {rank}{player}"
+chat-format: "{level} {rank}{player} §8» §f{msg}"
+
+ranks:
+  Owner:
+    color: "§4"
+    nametag-format: "{level} {rank}{color}{player}"
+    chat-format: "{level} {rank}{color}{player} §8» §f {msg}"
+  Admin:
+    color: "§c"
+    nametag-format: "{level} {rank}{color}{player}"
+    chat-format: "{level} {rank}{color}{player} §8» §f {msg}"
+  Developer:
+    color: "§b"
+    nametag-format: "{level} {rank}{color}{player}"
+    chat-format: "{level} {rank}{color}{player} §8» §f {msg}"
+  Helper:
+    color: "§d"
+    nametag-format: "{level} {rank}{color}{player}"
+    chat-format: "{level} {rank}{color}{player} §8» §f {msg}"
+  Moderator:
+    color: "§e"
+    nametag-format: "{level} {rank}{color}{player}"
+    chat-format: "{level} {rank}{color}{player} §8» §f {msg}"
+  Builder:
+    color: "§a"
+    nametag-format: "{level} {rank}{color}{player}"
+    chat-format: "{level} {rank}{color}{player} §8» §f {msg}"
+  Partner:
+    color: "§d"
+    nametag-format: "{level} {rank}{color}{player}"
+    chat-format: "{level} {rank}{color}{player} §8» §f {msg}"
+  Media:
+    color: "§d"
+    nametag-format: "{level} {rank}{color}{player}"
+    chat-format: "{level} {rank}{color}{player} §8» §f {msg}"
+  Member:
+    color: "§7"
+    nametag-format: "{level} {player}"
+    chat-format: "{level} {player} §8» §7{msg}"
+  VIP:
+    color: "§a"
+    nametag-format: "{level} {rank}{player}"
+    chat-format: "{level} {rank}{player} §8» §a{msg}"
+  VIP+:
+    color: "§b"
+    nametag-format: "{level} {rank}{player}"
+    chat-format: "{level} {rank}{player} §8» §b{msg}"
+  MVP:
+    color: "§6"
+    nametag-format: "{level} {rank}{player}"
+    chat-format: "{level} {rank}{player} §8» §e{msg}"
+  MVP+:
+    color: "§d"
+    nametag-format: "{level} {rank}{player}"
+    chat-format: "{level} {rank}{player} §8» §d{msg}"
+  Legend:
+    color: "§5"
+    nametag-format: "{level} {rank}{player}"
+    chat-format: "{level} {rank}{player} §8» §f{msg}"

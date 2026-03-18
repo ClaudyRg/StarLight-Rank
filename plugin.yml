@@ -1,0 +1,28 @@
+name: StarRank
+version: 1.0.0
+api: 5.0.0
+main: starlight\rank\Main
+author: Cavie
+website: github.com/ClaudyRg
+description: Custom Rank, Nametag, and Chat formatting for StarLight.
+depend:
+  - StarGems
+
+commands:
+  setrank:
+    description: "Sets a player's rank"
+    permission: starrank.command.admin
+  killmsg:
+    description: "Set your custom kill message"
+    permission: starrank.perk.killmsg
+
+permissions:
+  starrank.command.admin:
+    default: op
+    description: "Allows managing player ranks"
+  starrank.command.rankshop:
+    default: true
+    description: "Allows using the rank shop"
+  starrank.perk.killmsg:
+    default: op
+    description: "Allows using custom kill messages"
