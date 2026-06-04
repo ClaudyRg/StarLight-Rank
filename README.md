@@ -23,7 +23,7 @@
 
 ## 🌸 Credits
 - **Main Developer**: [Cavie](https://github.com/ClaudyRg)
-- **Design & Maintenance**: [Nkrliaa](https://github.com/Nkrliaa)
+- **Design & Maintenance**: [Valeska](https://github.com/Kwacyy)
 
 ---
 *Built with love for the StarLight Network. Overcoming the limits, one rank at a time.* ✨🌸
